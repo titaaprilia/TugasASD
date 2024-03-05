@@ -1,0 +1,18 @@
+Algoritma dan Struktur Data
+1. Pengantar Algoritma 
+Memahami konsep waktu berjalan sangat penting untuk mengevaluasi dan membandingkan algoritma yang berbeda.
+suatu studi kasus untuk mencari suatu kata dalam suatu dictionary atau suatu kamus nah kata tersebut diawali dengan huruf k larang bisa 
+lakukan di sini adalah bisa saja memulai pencarian dari halaman pertama dari kamus tersebut gimana terus membalik setiap halamannya satu persatu mulai dari halaman paling awal.
+Untuk mencari kata, disarankan menggunakan algoritma binary search karena lebih efisien daripada simple search. Binary search memanfaatkan fakta bahwa kamus sudah terurut secara alfabetik, sehingga dapat mengeliminasi setengah elemen pada setiap langkahnya.
+Implementasi algoritma binary search dalam bahasa pemrograman Python. Fungsi binary_search menerima dua parameter, yaitu list yang sudah terurut dan elemen yang dicari. 
+Fungsi ini mengembalikan posisi elemen dalam list jika ditemukan, dan -1 jika tidak ditemukan.
+Selain itu, konsep logaritma dijelaskan dengan contoh penggunaannya dalam binary search.
+Logaritma digunakan untuk menghitung jumlah langkah maksimum yang dibutuhkan dalam pencarian. 
+Binary search memiliki kompleksitas logaritmik, sehingga jumlah langkahnya tumbuh secara logaritmik terhadap jumlah elemen dalam list.
+Pada bagian praktikum, dijelaskan pula implementasi kode Python untuk binary search. Fungsi binary_search menggunakan konsep indeks untuk membagi list menjadi dua bagian, mengeliminasi setengah elemen pada setiap langkah pencarian.
+2. Running Time dan Big 0 Notation
+notasi Big O (O-notation)  cara untuk menggambarkan seberapa cepat suatu algoritma. beberapa contoh notasi seperti O(1), O(log n), O(n), O(n^2), dan O(n!).
+pemilihan algoritma harus mempertimbangkan efisiensi waktu. menggunakan analogi pencarian dalam buku telepon dan menekankan bahwa notasi Big O berfokus pada kasus terburuk (worst-case scenario).
+Visualisasi running time dengan contoh penggambaran kotak-kotak dan operasi yang diperlukan untuk menggambarnya. menggambarkan perbedaan running time antara algoritma dengan logaritmik, linear, quadratic, dan factorial time.
+Notasi Big O tidak terbatas pada lima notasi yang disebutkan, tetapi kelima notasi tersebut adalah yang paling umum.
+
